@@ -5,7 +5,7 @@ span.tab {
 		padding: 0.7em;
 }
 body {
-	font-size: 3em;
+	font-size: 2.6em;
 	width: device-width;
 	height: device-height;
 	margin-left: 5%;
@@ -25,6 +25,18 @@ select {
 	border: 1px solid;
 	border-color: #929292;
 	border-radius: 1px;
+}
+input[type=text] {
+	width: 50%;
+	height: 3em;
+}
+input[type=date] {
+	width: 24%;
+	height: 3em;
+}
+input[type=time] {
+	width: 24%;
+	height: 3em;
 }
 .report {
 	font-size: 0.8em;
